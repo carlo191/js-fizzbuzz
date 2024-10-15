@@ -15,8 +15,6 @@ const endCicle = 100;
 
 //stampa Fizz, Buzz o FizzBuzz se il numero è multiplo di 3, 5 o entrambi
 
-let result = "";
-
 for (let i = startCicle; i <= endCicle; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
